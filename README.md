@@ -1,1 +1,1 @@
-# 2.4 Creación de esquemas de mi proyecto con Mongoose.
+# 2.5 CRUD con colección Entidad.
