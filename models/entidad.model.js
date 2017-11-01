@@ -18,6 +18,6 @@ const entidadSchema = new mongoose.Schema({
     }
 });
 
-const entidadModel = mongoose.model("Entidad", entidadSchema, "entidad");
+const entidadModel = mongoose.model('Entidad', entidadSchema, 'entidad');
 
 module.exports = entidadModel;
