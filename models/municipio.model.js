@@ -12,7 +12,7 @@ const municipioSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    entidad: [{type: Schema.ObjectId, ref: 'Entidad'}]
+    entidad: [{type: mongoose.Schema.ObjectId, ref: 'Entidad'}]
 });
 
 const municipioModel = mongoose.model("Municipio", municipioSchema, "municipio");
